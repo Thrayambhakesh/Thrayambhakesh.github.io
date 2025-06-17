@@ -3,36 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name - Portfolio</title>
+  <title>Thrayambhakesh A - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Thrayambhakesh A</h1>
-    <p>Software Developer | Intern | Tech Enthusiast</p>
+    <div class="container">
+      <h1>Thrayambhakesh A</h1>
+      <p class="tagline">AI/ML Enthusiast | Full Stack Intern | Problem Solver</p>
+    </div>
   </header>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Chat App</strong> – Built using Flutter + Supabase</li>
-      <li><strong>Image Generator</strong> – Integrated Replicate API</li>
-      <li><strong>Task Manager</strong> – Firebase & Google Auth</li>
-    </ul>
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate Computer Science student with hands-on experience in developing AI-powered applications, real-time full stack projects, and intelligent automation systems. My areas of interest include Machine Learning, Image Processing, and Cloud-based Deployments.</p>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: thrayambhak@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/Thrayambhakesh">Thrayambhakesh</a></p>
+  <section id="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project">
+        <h3>🧠 Brain Tumor Detection using CNN</h3>
+        <p>Built a deep learning model using TensorFlow to detect brain tumors from MRI images with over 95% accuracy. Integrated Grad-CAM for explainable AI visualization.</p>
+      </div>
+      <div class="project">
+        <h3>🔍 Real-Time Object Detection & Wiki Integration</h3>
+        <p>Used OpenCV and YOLOv8 with webcam feed to detect objects and fetch live descriptions via Wikipedia API. No pre-existing dataset used.</p>
+      </div>
+      <div class="project">
+        <h3>📊 BERT-powered Sentiment Analysis Dashboard</h3>
+        <p>Developed a sentiment analysis web app using BERT and TensorFlow, visualized using Flask + Chart.js. Users can paste text or URLs and see emotion trends in real time.</p>
+      </div>
+      <div class="project">
+        <h3>📝 Resume Parser & Ranker</h3>
+        <p>Built an intelligent resume parser with spaCy NLP and cosine similarity to rank resumes against job descriptions. Used Streamlit for UI.</p>
+      </div>
+    </div>
   </section>
 
   <section id="resume">
-  <h2>Resume</h2>
-  <p>
-    <a href="resume/Thrayambhakesh_Resume.pdf" target="_blank">📄 View My Resume (PDF)</a>
-  </p>
-</section>
+    <div class="container">
+      <h2>Resume</h2>
+      <p>
+        <a class="button" href="resume/Thrayambhakesh_Resume.pdf" target="_blank">📄 View My Resume</a>
+      </p>
+    </div>
+  </section>
 
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:thrayambhak@gmail.com">thrayambhak@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Thrayambhakesh" target="_blank">github.com/Thrayambhakesh</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/thrayambhakesh" target="_blank">linkedin.com/in/thrayambhakesh</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Thrayambhakesh A. All rights reserved.</p>
+  </footer>
 </body>
 </html>
